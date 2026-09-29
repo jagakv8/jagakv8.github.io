@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jagadeesh K V | AI Engineer</title>
+<meta name="description" content="Jagadeesh K V, AI & ML engineer and full-stack developer based in Bengaluru.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jagadeesh K V | AI Engineer &amp; Full-Stack Developer">
+<meta property="og:description" content="Portfolio of Jagadeesh K V: ML projects, full-stack apps and skills in Python, Java, React and Spring Boot.">
+<meta property="og:url" content="https://jagakv8.github.io/">
+<meta property="og:image" content="https://jagakv8.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0d0c1d;--surface:#15142b;--line:#2a2850;--text:#e8e6ff;--muted:#9b98c4;--accent:#a78bfa;--mint:#5eead4}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{background:var(--ink);color:var(--text);font:400 17px/1.65 "Space Grotesk",system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--mint);outline-offset:3px;border-radius:4px}
+.mono{font-family:"JetBrains Mono",monospace}
+#bar{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--accent),var(--mint));z-index:20}
+nav{position:sticky;top:0;z-index:10;background:rgba(13,12,29,.88);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav div{max-width:960px;margin:auto;padding:14px 24px;display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+nav b{margin-right:auto;font-weight:700}
+nav a{color:var(--muted);font-size:15px}nav a:hover,nav a.on{color:var(--mint)}
+main{max-width:960px;margin:auto;padding:0 24px}
+section{padding:88px 0 24px}
+h1{font-size:clamp(38px,7vw,68px);line-height:1.08;letter-spacing:-.02em;max-width:14em}
+h2{font-size:clamp(26px,4vw,36px);letter-spacing:-.01em;margin-bottom:28px}
+p.lead{color:var(--muted);max-width:36em;margin:22px 0 30px}
+.status{display:inline-flex;gap:10px;align-items:center;border:1px solid var(--line);border-radius:99px;padding:6px 14px;font-size:13px;color:var(--mint);margin-bottom:26px}
+.status i{width:8px;height:8px;border-radius:50%;background:var(--mint)}
+.btns{display:flex;gap:14px;flex-wrap:wrap}
+.btn{padding:12px 22px;border-radius:8px;border:1px solid var(--line);font-weight:500}
+.btn.p{background:var(--accent);color:#170f33;border-color:var(--accent)}
+.btn:hover{border-color:var(--mint)}
+.hero{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center;padding-top:72px}
+.plot{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px}
+.plot figcaption{font-size:12.5px;color:var(--muted);margin-top:8px;display:flex;justify-content:space-between}
+.plot path{fill:none;stroke-width:2.5;stroke-linecap:round}
+.plot .g{stroke:var(--line);stroke-width:1}
+#c1{stroke:var(--accent)}#c2{stroke:var(--mint)}
+.line{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 3.2s .3s ease-out forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.about{display:grid;grid-template-columns:1.4fr 1fr;gap:40px}
+.facts{border-left:1px solid var(--line);padding-left:26px;display:grid;gap:18px;align-content:start}
+.facts dt{font-size:13px;color:var(--muted)}.facts dd{margin:0}
+.stack{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px 40px}
+.stack h3{font-size:16px;color:var(--accent);margin-bottom:10px}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags span{font-size:13px;padding:4px 11px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+.proj{display:grid;gap:0;border-top:1px solid var(--line)}
+.proj article{display:grid;grid-template-columns:1fr 1.6fr;gap:12px 40px;padding:28px 0;border-bottom:1px solid var(--line)}
+.proj h3{font-size:22px}
+.proj p{color:var(--muted)}
+.proj .tags{grid-column:2}
+.proj .tags span{font-size:12.5px}
+.tl{list-style:none;padding:0;border-left:2px solid var(--line);margin-left:6px}
+.tl li{padding:0 0 26px 26px;position:relative}
+.tl li:before{content:"";position:absolute;left:-7px;top:9px;width:12px;height:12px;border-radius:50%;background:var(--ink);border:2px solid var(--accent)}
+.tl small{color:var(--mint);display:block;font-size:13px}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.links{display:grid;gap:12px;align-content:start}
+.links a{border:1px solid var(--line);border-radius:10px;padding:14px 18px;background:var(--surface);display:flex;justify-content:space-between}
+.links a:hover{border-color:var(--accent)}
+.links span{color:var(--muted)}
+form{display:grid;gap:12px}
+label{font-size:14px;color:var(--muted)}
+input,textarea{width:100%;background:var(--surface);border:1px solid var(--line);border-radius:8px;color:var(--text);padding:11px 13px;font:inherit;margin-top:4px}
+textarea{min-height:120px;resize:vertical}
+button{cursor:pointer;font:inherit}
+footer{max-width:960px;margin:64px auto 0;padding:24px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+@media(max-width:760px){.hero,.about,.contact,.proj article{grid-template-columns:1fr}.proj .tags{grid-column:1}.facts{border:0;padding:0}section{padding-top:64px}}
+@media(prefers-reduced-motion:reduce){.line{animation:none;stroke-dashoffset:0}html{scroll-behavior:auto}}
+#net{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;opacity:.75}
+main,footer{position:relative;z-index:1}
+h1{background:linear-gradient(120deg,#fff 30%,#c4b5fd 75%,var(--mint));-webkit-background-clip:text;background-clip:text;color:transparent}
+.type{color:var(--mint);font-size:16px;margin-top:20px;min-height:1.6em}
+.type + .lead{margin-top:10px}
+.caret{display:inline-block;width:9px;height:1.05em;background:var(--mint);margin-left:3px;vertical-align:-2px;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.proj article{position:relative;padding-inline:20px;margin-inline:-20px;border-radius:12px;transition:transform .25s}
+.proj article::before{content:"";position:absolute;inset:0;border-radius:12px;opacity:0;transition:opacity .25s;pointer-events:none;background:radial-gradient(360px circle at var(--mx,50%) var(--my,50%),rgba(167,139,250,.16),transparent 70%);box-shadow:inset 0 0 0 1px rgba(167,139,250,.35)}
+.proj article:hover::before{opacity:1}
+.proj article:hover{transform:translateX(6px)}
+.proj h3{transition:color .25s}.proj article:hover h3{color:var(--accent)}
+.plot{box-shadow:0 0 60px -20px rgba(167,139,250,.5)}
+@media(prefers-reduced-motion:reduce){.caret{animation:none}}
+</style>
+</head>
+<body>
+<div id="bar"></div>
+<canvas id="net" aria-hidden="true"></canvas>
+<nav><div>
+  <b class="mono">jagadeesh.kv</b>
+  <a href="#about">About</a><a href="#stack">Skills</a><a href="#work">Projects</a><a href="#path">Education</a><a href="#contact">Contact</a>
+</div></nav>
+
+<main>
+<section class="hero" id="top">
+  <div>
+    <span class="status mono"><i></i>Open to AI/ML and software roles</span>
+    <h1>I train models, then build the apps around them.</h1>
+    <p class="type mono" aria-hidden="true">&gt; <span id="ty"></span><span class="caret"></span></p>
+    <p class="lead">I'm Jagadeesh, an AI &amp; ML engineer and full-stack developer in Bengaluru. I work across Python, Java and JavaScript, from model training to APIs to the interface people use.</p>
+    <div class="btns">
+      <a class="btn p" href="#work">See my projects</a>
+      <a class="btn" href="mailto:jagakv8@gmail.com">Email me</a>
+    </div>
+  </div>
+  <figure class="plot" aria-label="Illustration of a training loss curve falling while accuracy rises">
+    <svg viewBox="0 0 320 200" width="100%" role="img">
+      <line class="g" x1="20" y1="20" x2="20" y2="180"/><line class="g" x1="20" y1="180" x2="310" y2="180"/>
+      <line class="g" x1="20" y1="100" x2="310" y2="100" stroke-dasharray="3 5"/>
+      <path id="c1" class="line" pathLength="1" d="M20 40 C60 60 80 130 130 150 S230 168 310 172"/>
+      <path id="c2" class="line" pathLength="1" d="M20 170 C60 150 90 90 140 62 S240 34 310 28"/>
+    </svg>
+    <figcaption class="mono"><span style="color:var(--accent)">loss</span><span style="color:var(--mint)">accuracy</span><span>epochs</span></figcaption>
+  </figure>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <div class="about">
+    <div>
+      <p>I recently finished my Bachelor of Engineering in AI &amp; Machine Learning at RNS Institute of Technology. I came into it through lateral entry after a computer science diploma, so I started with hands-on programming and built the theory on top.</p>
+      <p style="margin-top:14px;color:var(--muted)">I like projects that go end to end: a trained model, a service that exposes it, and a screen someone can actually use. Outside class I led events for the AIML Artistry Club.</p>
+    </div>
+    <dl class="facts">
+      <div><dt>Based in</dt><dd>Bengaluru, Karnataka</dd></div>
+      <div><dt>Degree</dt><dd>B.E. AI &amp; ML, RNSIT (CGPA 8.22)</dd></div>
+      <div><dt>Experience</dt><dd>Intern Trainee, Anudip Foundation</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section id="stack">
+  <h2>Skills</h2>
+  <div class="stack">
+    <div><h3>Languages</h3><div class="tags"><span>Python</span><span>Java</span><span>C++</span><span>JavaScript (ES6+)</span><span>HTML5</span><span>CSS3</span></div></div>
+    <div><h3>AI &amp; ML</h3><div class="tags"><span>PyTorch</span><span>TensorFlow</span><span>Scikit-learn</span><span>NLP</span><span>Deep learning</span><span>Gradio</span></div></div>
+    <div><h3>Data</h3><div class="tags"><span>NumPy</span><span>Pandas</span><span>MySQL</span><span>MongoDB</span><span>SQL data modeling</span></div></div>
+    <div><h3>Web &amp; backend</h3><div class="tags"><span>React.js</span><span>Node.js</span><span>Spring Boot</span><span>Django</span><span>Flask</span></div></div>
+    <div><h3>Tools</h3><div class="tags"><span>Git</span><span>Postman</span><span>Linux</span><span>System design basics</span></div></div>
+  </div>
+</section>
+
+<section id="work">
+  <h2>Projects</h2>
+  <div class="proj">
+    <article>
+      <h3>Diabetic retinopathy detection</h3>
+      <p>Classifies retinal images to help catch diabetic retinopathy early. Built with MobileNetV2 transfer learning and served through a Gradio interface. Reached about 82% validation accuracy.</p>
+      <div class="tags"><span>Python</span><span>PyTorch</span><span>MobileNetV2</span><span>Gradio</span></div>
+    </article>
+    <article>
+      <h3>Real-time API &amp; data pipeline tracker</h3>
+      <p>A monitoring dashboard for API and data pipelines, applied to a UPI fraud detection system.</p>
+      <div class="tags"><span>Python</span><span>Flask</span><span>MongoDB</span><span>React.js</span></div>
+    </article>
+    <article>
+      <h3>Intranet leave scheduler</h3>
+      <p>A workflow engine where employees request leave and managers approve it, with scheduling handled on the server.</p>
+      <div class="tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span><span>ReactJS</span></div>
+    </article>
+    <article>
+      <h3>Interactive video ad player</h3>
+      <p>An HTML5 video player that plays ads from Google Ad Manager VAST tags and records player analytics.</p>
+      <div class="tags"><span>HTML5</span><span>JavaScript</span><span>VAST</span></div>
+    </article>
+  </div>
+  <p style="margin-top:20px;color:var(--muted)">More code on <a href="https://github.com/jagakv8" style="color:var(--accent);text-decoration:underline">GitHub</a>.</p>
+</section>
+
+<section id="path">
+  <h2>Education and experience</h2>
+  <ul class="tl">
+    <li><small class="mono">Jan – May 2026</small><b>Intern Trainee, Anudip Foundation for Social Welfare</b><br><span style="color:var(--muted)">Technical training on enterprise software workflows; gave weekly technical presentations.</span></li>
+    <li><small class="mono">Graduated 2026</small><b>B.E. in AI &amp; Machine Learning, RNSIT Bengaluru</b><br><span style="color:var(--muted)">CGPA 8.22 / 10. Event lead, AIML Artistry Club.</span></li>
+    <li><small class="mono">2023</small><b>Diploma in Computer Science, East West Institute of Polytechnic</b><br><span style="color:var(--muted)">CGPA 8.82 / 10. Continued into the B.E. through lateral entry.</span></li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Get in touch</h2>
+  <div class="contact">
+    <div class="links">
+      <a href="mailto:jagakv8@gmail.com">Email <span>jagakv8@gmail.com</span></a>
+      <a href="https://linkedin.com/in/jagadeeshkv">LinkedIn <span>jagadeeshkv</span></a>
+      <a href="https://github.com/jagakv8">GitHub <span>jagakv8</span></a>
+      <!-- Add your resume as resume.pdf next to this file -->
+      <a href="resume.pdf">Resume <span>Download PDF</span></a>
+    </div>
+    <form id="f">
+      <label>Your name<input name="n" required autocomplete="name"></label>
+      <label>Message<textarea name="m" required></textarea></label>
+      <button class="btn p" type="submit">Open in my email app</button>
+    </form>
+  </div>
+</section>
+</main>
+<footer>© <span id="y"></span> Jagadeesh K V. Built with plain HTML, CSS and JavaScript.</footer>
+
+<script>
+const bar=document.getElementById('bar');
+addEventListener('scroll',()=>{const h=document.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%'},{passive:true});
+const links=[...document.querySelectorAll('nav a')];
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-40% 0px -55% 0px'});
+document.querySelectorAll('section[id]').forEach(s=>io.observe(s));
+document.getElementById('f').addEventListener('submit',e=>{e.preventDefault();const d=new FormData(e.target);
+location.href='mailto:jagakv8@gmail.com?subject='+encodeURIComponent('Portfolio message from '+d.get('n'))+'&body='+encodeURIComponent(d.get('m'))});
+const calm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+/* typing line */
+const words=['retinal image classifiers','fraud detection pipelines','full-stack workflow apps','APIs that serve ML models'];
+const ty=document.getElementById('ty');
+if(calm){ty.textContent=words[0]}else{let w=0,i=0,del=false;(function tick(){const t=words[w];ty.textContent=t.slice(0,i);
+ if(!del&&i===t.length){del=true;return setTimeout(tick,1600)}
+ if(del&&i===0){del=false;w=(w+1)%words.length}
+ i+=del?-1:1;setTimeout(tick,del?28:65)})()}
+/* project spotlight */
+document.querySelectorAll('.proj article').forEach(a=>a.addEventListener('pointermove',e=>{const r=a.getBoundingClientRect();a.style.setProperty('--mx',(e.clientX-r.left)+'px');a.style.setProperty('--my',(e.clientY-r.top)+'px')}));
+/* neural network background */
+const cv=document.getElementById('net'),cx=cv.getContext('2d');let W,H,pts=[],m={x:-999,y:-999};
+function size(){W=cv.width=innerWidth;H=cv.height=innerHeight;pts=Array.from({length:Math.min(70,Math.floor(W*H/22000))},()=>({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3}))}
+size();addEventListener('resize',size);addEventListener('pointermove',e=>{m.x=e.clientX;m.y=e.clientY});
+function draw(){cx.clearRect(0,0,W,H);
+ for(const p of pts){if(!calm){p.x+=p.vx;p.y+=p.vy}if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;
+  const dm=Math.hypot(p.x-m.x,p.y-m.y);
+  if(dm<170){cx.strokeStyle='rgba(94,234,212,'+(1-dm/170)*.6+')';cx.beginPath();cx.moveTo(p.x,p.y);cx.lineTo(m.x,m.y);cx.stroke()}
+  cx.fillStyle=dm<170?'#5eead4':'rgba(167,139,250,.7)';cx.beginPath();cx.arc(p.x,p.y,dm<170?2.6:1.8,0,7);cx.fill()}
+ for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){const d=Math.hypot(pts[i].x-pts[j].x,pts[i].y-pts[j].y);
+  if(d<130){cx.strokeStyle='rgba(167,139,250,'+(1-d/130)*.22+')';cx.beginPath();cx.moveTo(pts[i].x,pts[i].y);cx.lineTo(pts[j].x,pts[j].y);cx.stroke()}}
+ if(!calm)requestAnimationFrame(draw)}
+draw();
+document.getElementById('y').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
